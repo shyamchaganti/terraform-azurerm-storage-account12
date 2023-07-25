@@ -10,7 +10,7 @@ variable "tags" {
 variable "location" {
   description = "The Azure Region of where the Storage Account & Private Endpoint are to be created."
   type        = string
-  default     = "uksouth"
+  default     = "eastus2"
 }
 
 # ##########################################
